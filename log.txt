@@ -1,0 +1,200 @@
+----- The battle between Elfs and Orks has began -----
+----- Elfs TURN-----
+Turn#:1
+-ElfWizard[1] made buf to -ElfWarrior[1][hp:100.0]. attack damage increase by 50%.
+-Legolas[0] made 7.0 range damage to -OrkWarrior[1][hp:93.0]. 
+-Legolas[1] made 3.0 melee damage to -OrkWarrior[1][hp:90.0]. 
+-Legolas[2] made 3.0 melee damage to -OrkHunter[1][hp:97.0]. 
+-ElfWarrior[1] made 22.5 melee damage to -OrkHunter[1][hp:74.5]. 
+-ElfWarrior[2] made 15.0 melee damage to -OrkWarrior[3][hp:85.0]. 
+-ElfWarrior[3] made 15.0 melee damage to -OrkWarrior[2][hp:85.0]. 
+-ElfWarrior[4] made 15.0 melee damage to -OrkHunter[2][hp:85.0]. 
+-ElfWarrior[5] made 15.0 melee damage to -OrkWarrior[4][hp:85.0]. 
+--> Orks health status <--
+-Shaman[1][hp:100.0]
+-OrkHunter[0][hp:100.0]
+-OrkHunter[1][hp:74.5]
+-OrkHunter[2][hp:85.0]
+-OrkWarrior[1][hp:90.0]
+-OrkWarrior[2][hp:85.0]
+-OrkWarrior[3][hp:85.0]
+-OrkWarrior[4][hp:85.0]
+----- Elfs END turn-----
+----- Orks TURN -----
+turn#:1
+-Shaman[1] made buf to -Shaman[1][hp:100.0]. attack damage increase by 50%.
+-OrkHunter[0] made 5.0 melee damage to -ElfWizard[1][hp:95.0]. 
+-OrkHunter[1] made 5.0 melee damage to -Legolas[0][hp:95.0]. 
+-OrkHunter[2] made 5.0 melee damage to -ElfWarrior[2][hp:95.0]. 
+-OrkWarrior[1] made 20.0 melee damage to -Legolas[0][hp:75.0]. 
+-OrkWarrior[2] made 20.0 melee damage to -ElfWarrior[2][hp:75.0]. 
+-OrkWarrior[3] made 20.0 melee damage to -ElfWarrior[4][hp:80.0]. 
+-OrkWarrior[4] made 20.0 melee damage to -Legolas[0][hp:55.0]. 
+--> Elfs health status : <--
+-ElfWizard[1][hp:95.0]
+-Legolas[0][hp:55.0]
+-Legolas[1][hp:100.0]
+-Legolas[2][hp:100.0]
+-ElfWarrior[1][hp:100.0]
+-ElfWarrior[2][hp:75.0]
+-ElfWarrior[3][hp:100.0]
+-ElfWarrior[4][hp:80.0]
+-ElfWarrior[5][hp:100.0]
+----- Orks END turn -----
+----- Elfs TURN-----
+Turn#:2
+-ElfWizard[1] made 10.0 range damage to -OrkWarrior[3][hp:75.0]. 
+-Legolas[0] made 7.0 range damage to -OrkHunter[1][hp:67.5]. 
+-Legolas[1] made 3.0 melee damage to -OrkWarrior[2][hp:82.0]. 
+-Legolas[2] made 7.0 range damage to -OrkWarrior[1][hp:83.0]. 
+-ElfWarrior[1] made 15.0 melee damage to -OrkHunter[1][hp:52.5]. 
+-ElfWarrior[2] made 15.0 melee damage to -OrkWarrior[4][hp:70.0]. 
+-ElfWarrior[3] made 15.0 melee damage to -OrkWarrior[1][hp:68.0]. 
+-ElfWarrior[4] made 15.0 melee damage to -Shaman[1][hp:85.0]. 
+-ElfWarrior[5] made 15.0 melee damage to -OrkWarrior[2][hp:67.0]. 
+--> Orks health status <--
+-Shaman[1][hp:85.0]
+-OrkHunter[0][hp:100.0]
+-OrkHunter[1][hp:52.5]
+-OrkHunter[2][hp:85.0]
+-OrkWarrior[1][hp:68.0]
+-OrkWarrior[2][hp:67.0]
+-OrkWarrior[3][hp:75.0]
+-OrkWarrior[4][hp:70.0]
+----- Elfs END turn-----
+----- Orks TURN -----
+turn#:2
+-Shaman[1] made buf to -Shaman[1][hp:85.0]. attack damage increase by 50%.
+-OrkHunter[0] made 5.0 melee damage to -Legolas[0][hp:50.0]. 
+-OrkHunter[1] made 8.0 range damage to -Legolas[0][hp:42.0]. 
+-OrkHunter[2] made 8.0 range damage to -ElfWarrior[1][hp:92.0]. 
+-OrkWarrior[1] made 20.0 melee damage to -Legolas[0][hp:22.0]. 
+-OrkWarrior[2] made 20.0 melee damage to -Legolas[0][hp:2.0]. 
+-OrkWarrior[3] made 20.0 melee damage to -ElfWarrior[5][hp:80.0]. 
+-OrkWarrior[4] made 20.0 melee damage to -ElfWarrior[1][hp:72.0]. 
+-Legolas[0][hp:2.0] died.
+--> Elfs health status : <--
+-ElfWizard[1][hp:95.0]
+-Legolas[1][hp:100.0]
+-Legolas[2][hp:100.0]
+-ElfWarrior[1][hp:72.0]
+-ElfWarrior[2][hp:75.0]
+-ElfWarrior[3][hp:100.0]
+-ElfWarrior[4][hp:80.0]
+-ElfWarrior[5][hp:80.0]
+----- Orks END turn -----
+----- Elfs TURN-----
+Turn#:3
+-ElfWizard[1] made buf to -ElfWarrior[2][hp:75.0]. attack damage increase by 50%.
+-Legolas[1] made 3.0 melee damage to -OrkWarrior[2][hp:64.0]. 
+-Legolas[2] made 7.0 range damage to -OrkHunter[2][hp:78.0]. 
+-ElfWarrior[1] made 15.0 melee damage to -OrkWarrior[4][hp:55.0]. 
+-ElfWarrior[2] made 22.5 melee damage to -OrkWarrior[3][hp:52.5]. 
+-ElfWarrior[3] made 15.0 melee damage to -OrkWarrior[1][hp:53.0]. 
+-ElfWarrior[4] made 15.0 melee damage to -OrkWarrior[4][hp:40.0]. 
+-ElfWarrior[5] made 15.0 melee damage to -Shaman[1][hp:70.0]. 
+-OrkWarrior[4][hp:40.0] died. 
+--> Orks health status <--
+-Shaman[1][hp:70.0]
+-OrkHunter[0][hp:100.0]
+-OrkHunter[1][hp:52.5]
+-OrkHunter[2][hp:78.0]
+-OrkWarrior[1][hp:53.0]
+-OrkWarrior[2][hp:64.0]
+-OrkWarrior[3][hp:52.5]
+----- Elfs END turn-----
+----- Orks TURN -----
+turn#:3
+-Shaman[1] made buf to -OrkHunter[1][hp:52.5]. attack damage increase by 50%.
+-OrkHunter[0] made 8.0 range damage to -Legolas[2][hp:92.0]. 
+-OrkHunter[1] made 7.5 melee damage to -ElfWarrior[4][hp:72.5]. 
+-OrkHunter[2] made 5.0 melee damage to -ElfWizard[1][hp:90.0]. 
+-OrkWarrior[1] made 20.0 melee damage to -ElfWarrior[3][hp:80.0]. 
+-OrkWarrior[2] made 20.0 melee damage to -ElfWarrior[5][hp:60.0]. 
+-OrkWarrior[3] made 20.0 melee damage to -ElfWarrior[4][hp:52.5]. 
+--> Elfs health status : <--
+-ElfWizard[1][hp:90.0]
+-Legolas[1][hp:100.0]
+-Legolas[2][hp:92.0]
+-ElfWarrior[1][hp:72.0]
+-ElfWarrior[2][hp:75.0]
+-ElfWarrior[3][hp:80.0]
+-ElfWarrior[4][hp:52.5]
+-ElfWarrior[5][hp:60.0]
+----- Orks END turn -----
+----- Elfs TURN-----
+Turn#:4
+-ElfWizard[1] made 10.0 range damage to -OrkWarrior[1][hp:43.0]. 
+-Legolas[1] made 3.0 melee damage to -OrkHunter[0][hp:97.0]. 
+-Legolas[2] made 7.0 range damage to -OrkHunter[0][hp:90.0]. 
+-ElfWarrior[1] made 15.0 melee damage to -OrkWarrior[2][hp:49.0]. 
+-ElfWarrior[2] made 15.0 melee damage to -OrkHunter[1][hp:37.5]. 
+-ElfWarrior[3] made 15.0 melee damage to -OrkWarrior[2][hp:34.0]. 
+-ElfWarrior[4] made 15.0 melee damage to -OrkHunter[2][hp:63.0]. 
+-ElfWarrior[5] made 15.0 melee damage to -OrkHunter[2][hp:48.0]. 
+-OrkHunter[1][hp:37.5] died. 
+-OrkHunter[2][hp:48.0] died. 
+-OrkWarrior[1][hp:43.0] died. 
+-OrkWarrior[2][hp:34.0] died. 
+--> Orks health status <--
+-Shaman[1][hp:70.0]
+-OrkHunter[0][hp:90.0]
+-OrkWarrior[3][hp:52.5]
+----- Elfs END turn-----
+----- Orks TURN -----
+turn#:4
+-Shaman[1] made buf to -OrkWarrior[3][hp:52.5]. attack damage increase by 50%.
+-OrkHunter[0] made 5.0 melee damage to -ElfWarrior[5][hp:55.0]. 
+-OrkWarrior[3] made 30.0 melee damage to -Legolas[1][hp:70.0]. 
+--> Elfs health status : <--
+-ElfWizard[1][hp:90.0]
+-Legolas[1][hp:70.0]
+-Legolas[2][hp:92.0]
+-ElfWarrior[1][hp:72.0]
+-ElfWarrior[2][hp:75.0]
+-ElfWarrior[3][hp:80.0]
+-ElfWarrior[4][hp:52.5]
+-ElfWarrior[5][hp:55.0]
+----- Orks END turn -----
+----- Elfs TURN-----
+Turn#:5
+-ElfWizard[1] made 10.0 range damage to -OrkWarrior[3][hp:42.5]. 
+-Legolas[1] made 3.0 melee damage to -OrkWarrior[3][hp:39.5]. 
+-Legolas[2] made 3.0 melee damage to -OrkHunter[0][hp:87.0]. 
+-ElfWarrior[1] made 15.0 melee damage to -OrkWarrior[3][hp:24.5]. 
+-ElfWarrior[2] made 15.0 melee damage to -Shaman[1][hp:55.0]. 
+-ElfWarrior[3] made 15.0 melee damage to -OrkHunter[0][hp:72.0]. 
+-ElfWarrior[4] made 15.0 melee damage to -Shaman[1][hp:40.0]. 
+-ElfWarrior[5] made 15.0 melee damage to -OrkHunter[0][hp:57.0]. 
+-Shaman[1][hp:40.0] died. 
+-OrkWarrior[3][hp:24.5] died. 
+--> Orks health status <--
+-OrkHunter[0][hp:57.0]
+----- Elfs END turn-----
+----- Orks TURN -----
+turn#:5
+-OrkHunter[0] made 8.0 range damage to -ElfWizard[1][hp:82.0]. 
+--> Elfs health status : <--
+-ElfWizard[1][hp:82.0]
+-Legolas[1][hp:70.0]
+-Legolas[2][hp:92.0]
+-ElfWarrior[1][hp:72.0]
+-ElfWarrior[2][hp:75.0]
+-ElfWarrior[3][hp:80.0]
+-ElfWarrior[4][hp:52.5]
+-ElfWarrior[5][hp:55.0]
+----- Orks END turn -----
+----- Elfs TURN-----
+Turn#:6
+-ElfWizard[1] made buf to -Legolas[1][hp:70.0]. attack damage increase by 50%.
+-Legolas[1] made 10.5 range damage to -OrkHunter[0][hp:46.5]. 
+-Legolas[2] made 7.0 range damage to -OrkHunter[0][hp:39.5]. 
+-ElfWarrior[1] made 15.0 melee damage to -OrkHunter[0][hp:24.5]. 
+-ElfWarrior[2] made 15.0 melee damage to -OrkHunter[0][hp:9.5]. 
+-ElfWarrior[3] made 15.0 melee damage to -OrkHunter[0][hp:-5.5]. 
+-ElfWarrior[4] made 15.0 melee damage to -OrkHunter[0][hp:-20.5]. 
+-ElfWarrior[5] made 15.0 melee damage to -OrkHunter[0][hp:-35.5]. 
+-OrkHunter[0][hp:-35.5] died. 
+--> Orks health status <--
+----- no Orks left -----
+----- The game is over. Elfs WIN -----
