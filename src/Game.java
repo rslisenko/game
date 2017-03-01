@@ -116,7 +116,7 @@ public class Game {
                     ElfWizard ewiz = (ElfWizard) currentWarrior;
                     ewiz.makeTurn(ewiz, army1, army2);
                 }
-                if (currentWarrior.getHp() < 51) {
+                if (currentWarrior.getHp() < 0) {
                     System.out.println(currentWarrior + " died.");
                     race1Iter.remove();
                 }
@@ -125,7 +125,7 @@ public class Game {
             Iterator<Character> iter2 = army2.iterator();
             while (iter2.hasNext()) {
                 Character c = iter2.next();
-                if (c.getHp() < 51) {
+                if (c.getHp() < 0) {
                     System.out.println(c + " died. ");
                     iter2.remove(); // если здоровье меньше 0 , то удаляем бойца с отряда
                 }
@@ -183,7 +183,7 @@ public class Game {
                     UndeadWizard uwiz = (UndeadWizard) currentWarrior;
                     uwiz.makeTurn(uwiz, army2, army1);
                 }
-                if (currentWarrior.getHp() < 51) {
+                if (currentWarrior.getHp() < 0) {
                     System.out.println(currentWarrior + " died. ");
                     race2Iter.remove();
                 }
@@ -193,7 +193,7 @@ public class Game {
             Iterator<Character> iter1 = army1.iterator();
             while (iter1.hasNext()) {
                 Character c = iter1.next();
-                if (c.getHp() < 51) {
+                if (c.getHp() < 0) {
                     System.out.println(c + " died.");
                     iter1.remove();
                 }
@@ -215,7 +215,5 @@ public class Game {
 //            System.out.print("Нажмите Enter , чтобы сделать следующий ход: \n");
 //            scan.nextLine();
         }
-
-
     }
 }
