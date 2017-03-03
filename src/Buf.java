@@ -1,4 +1,4 @@
 
-public interface Buf extends Skills{
+public interface Buf {
     void buf(Character character);
 }

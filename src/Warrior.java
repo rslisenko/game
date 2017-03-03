@@ -35,7 +35,7 @@ abstract class Warrior extends Character implements MeleeAtacker {
     public void meleeAtk(Character character) {
         totalMeleeAtkPower = this.meleeAtkPower + this.bufMeleeAtkPower - this.debufMeleeAtkPower;
         character.setHp(character.getHp() - totalMeleeAtkPower); // отнимаем количество здоровья цели равное силе атаки атакующего
-        System.out.println(this.getName() + " made " + totalMeleeAtkPower + " melee damage to " + character + ". ");
+        System.out.println(this.getName() + " made " + totalMeleeAtkPower + "  damage to " + character + ". ");
     }
 
     public void makeTurn(ArrayList<Character> enemyArmy){

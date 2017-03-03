@@ -1,4 +1,4 @@
 
-public interface Debuf extends Skills{
+public interface Debuf {
     void debuf(Character character);
 }

@@ -41,18 +41,18 @@ public class Wizard extends Character implements RangeAtacker, Buf, Debuf, Dispe
         if (character instanceof Warrior) { /* если вибран Воин*/
             Warrior war = (Warrior)character;
             war.setBufMeleeAtkPower(war.getMeleeAtkPower()/2);// добавляем бонус к его ближней атаке
-            System.out.println(this.getName() + " made buf to " + character + ". attack damage increase by 50%.");
+            System.out.println(this.getName() + " cast buf to " + character + ". attack damage increase by 50%.");
         }
         if (character instanceof Hunter) {/* если вибран Стрелок*/
             Hunter hunt = (Hunter)character;
             hunt.setBufMeleeAtkPower(hunt.getMeleeAtkPower()/2);
             hunt.setBufRangeAtkPower(hunt.getRangeAtkPower()/2);
-            System.out.println(this.getName() + " made buf to " + character + ". attack damage increase by 50%.");
+            System.out.println(this.getName() + " cast buf to " + character + ". attack damage increase by 50%.");
         }
         if (character instanceof Wizard) {/* если вибран Маг*/
             Wizard wiz = (Wizard)character;
             wiz.setBufRangeAtkPower(wiz.getRangeAtkPower()/2);
-            System.out.println(this.getName() + " made buf to " + character + ". attack damage increase by 50%.");
+            System.out.println(this.getName() + " cast buf to " + character + ". attack damage increase by 50%.");
         }
     }
 
@@ -62,18 +62,18 @@ public class Wizard extends Character implements RangeAtacker, Buf, Debuf, Dispe
         if (character instanceof Warrior) {
             Warrior war = (Warrior)character;
             war.setDebufMeleeAtkPower(war.getMeleeAtkPower()/2);
-            System.out.println(this.getName() + " made debuf to " + character + ". attack damage increase by 50%.");
+            System.out.println(this.getName() + " cast debuf to " + character + ". attack damage increase by 50%.");
         }
         if (character instanceof Hunter) {
             Hunter hunt = (Hunter)character;
             hunt.setDebufRangeAtkPower(hunt.getRangeAtkPower()/2);
             hunt.setDebufRangeAtkPower(hunt.getRangeAtkPower()/2);
-            System.out.println(this.getName() + " made debuf to " + character + ". attack damage decreased by 50%.");
+            System.out.println(this.getName() + " cast debuf to " + character + ". attack damage decreased by 50%.");
         }
         if (character instanceof Wizard) {
             Wizard wiz = (Wizard)character;
             wiz.setDebufRangeAtkPower(wiz.getRangeAtkPower()/2);
-            System.out.println(this.getName() + "  made debuf to " + character + ". attack damage decreased by 50%.");
+            System.out.println(this.getName() + " cast debuf to " + character + ". attack damage decreased by 50%.");
         }
     }
 
@@ -82,18 +82,18 @@ public class Wizard extends Character implements RangeAtacker, Buf, Debuf, Dispe
         if (character instanceof Warrior) {
             Warrior war = (Warrior)character;
             war.setBufMeleeAtkPower(0);
-            System.out.println(this.getName() + " made dispel to " + character + ". ");
+            System.out.println(this.getName() + " cast dispel to " + character + ". ");
         }
         if (character instanceof Hunter) {
             Hunter hunt = (Hunter)character;
             hunt.setBufMeleeAtkPower(0); // сброс бонусов
             hunt.setBufRangeAtkPower(0);
-            System.out.println(this.getName() + " made dispel to  " + character + ". ");
+            System.out.println(this.getName() + " cast dispel to  " + character + ". ");
         }
         if (character instanceof Wizard) {
             Wizard wiz = (Wizard)character;
             wiz.setBufRangeAtkPower(0);
-            System.out.println(this.getName() + " made dispel to  " + character + ". ");
+            System.out.println(this.getName() + " cast dispel to  " + character + ". ");
         }
     }
     public void makeTurn(Character character, ArrayList<Character> allyArmy, ArrayList<Character> enemyArmy){

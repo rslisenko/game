@@ -1,10 +1,21 @@
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Scanner;
 
 import static java.lang.System.exit;
-
+/*
+*                           КРАТКОЕ ОПИСАНИЕ ИГРЫ
+*   Игра пошаговая. Есть 4 расы - Ельфы, Люди, Орки, Нежить
+*   Эльфы и Люди сражаются против Орков и Нежити. Расы выбираются случайным образом.
+*   В каждом отряде 4 бойца, 3 стрелка и 1 маг.
+*   У каждого есть свой набор скиллов(ближняя атака, дальняя атака, баф, дебаф, диспел)
+*
+*                       ОПИСАНИЕ НАЗНАЧЕНИЯ ИГРОВЫХ КЛАССОВ
+*   Game - основной  класс игры, где создаются отряды и реализован игровой цикл.
+*   Warrior, Hunter, Wizard - абстрактные класы ,  скоторых создаются персонажи всех рас
+*   Buf, Debuf, MeleeAtacker, RangeAttacker - интерфейсы, для реализации умений персонажей
+*
+* */
 public class Game {
     public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
@@ -15,17 +26,18 @@ public class Game {
         ArrayList<Character> army1 = new ArrayList(); //
         ArrayList<Character> army2 = new ArrayList();
         FileOutputStream fos;
-        PrintStream printStream;
+        PrintStream printStream; //
 
         try {
             fos = new FileOutputStream("log.txt"); // to record game turn
             printStream = new PrintStream(fos);
-            System.setOut(printStream);
+//            System.setOut(printStream);
         }catch (IOException e){
             System.out.println("Cannot create file.");
         }
 
-        int chooseFirstRace = (int)(Math.random()*2);
+/* Создание отрядов */
+        int chooseFirstRace = (int)(Math.random()*2); // выбор одной из рас
         if (chooseFirstRace == 0){
             race1 = "Humans";
             army1.add(new HumanWizard());
@@ -92,7 +104,7 @@ public class Game {
             while (race1Iter.hasNext()) { // ходим всеми членами отряда
                 Character currentWarrior = race1Iter.next();
 
-                if (currentWarrior instanceof HumanWarrior) { // Выбран человек-боец ?
+                if (currentWarrior instanceof HumanWarrior) { // Выбран человек-боец
                     HumanWarrior hw = (HumanWarrior) currentWarrior;
                     hw.makeTurn(army2);
                 }
@@ -104,7 +116,7 @@ public class Game {
                     HumanWizard hwiz = (HumanWizard) currentWarrior;
                     hwiz.makeTurn(hwiz, army1, army2);
                 }
-                if (currentWarrior instanceof ElfWarrior) { // Выбран эльф-боец ?
+                if (currentWarrior instanceof ElfWarrior) { // Выбран эльф-боец
                     ElfWarrior ew = (ElfWarrior) currentWarrior;
                     ew.makeTurn(army2);
                 }
@@ -125,7 +137,8 @@ public class Game {
             Iterator<Character> iter2 = army2.iterator();
             while (iter2.hasNext()) {
                 Character c = iter2.next();
-                if (c.getHp() < 0) {
+                if (c.getHp() <= 0) {
+                    c.setHp(0);
                     System.out.println(c + " died. ");
                     iter2.remove(); // если здоровье меньше 0 , то удаляем бойца с отряда
                 }
@@ -193,7 +206,8 @@ public class Game {
             Iterator<Character> iter1 = army1.iterator();
             while (iter1.hasNext()) {
                 Character c = iter1.next();
-                if (c.getHp() < 0) {
+                if (c.getHp() <= 0) {
+                    c.setHp(0);
                     System.out.println(c + " died.");
                     iter1.remove();
                 }
